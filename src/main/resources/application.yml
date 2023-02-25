@@ -21,5 +21,3 @@ spring:
     username: learn.mike.helloworld@gmail.com
     password: tugoutumkwlgxrpl
     protocol: smtp
-    tls:
-      enable: true
