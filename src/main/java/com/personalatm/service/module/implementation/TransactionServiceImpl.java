@@ -1,11 +1,9 @@
-package com.personalatm.service.module.impl;
+package com.personalatm.service.module.implementation;
 
 import com.personalatm.model.Transaction;
 import com.personalatm.model.User;
-import com.personalatm.service.Scheduler;
 import com.personalatm.service.module.TransactionService;
 import lombok.AllArgsConstructor;
-import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

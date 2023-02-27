@@ -1,4 +1,4 @@
-package com.personalatm.service;
+package com.personalatm.service.mail;
 
 import com.personalatm.helper.exception.AtmException;
 import lombok.AllArgsConstructor;

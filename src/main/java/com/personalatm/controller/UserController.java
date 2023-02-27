@@ -6,6 +6,7 @@ import com.personalatm.service.module.UserService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -38,6 +39,7 @@ public class UserController {
 
     //delete user by id
     @DeleteMapping("/{userId}")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<ApiResponse> delete(@PathVariable long userId) {
         userService.deleteById(userId);
         return new ResponseEntity<>(new ApiResponse("User deleted successfully!", true), HttpStatus.OK);

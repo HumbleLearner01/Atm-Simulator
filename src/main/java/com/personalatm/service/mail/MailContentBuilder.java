@@ -1,4 +1,4 @@
-package com.personalatm.service;
+package com.personalatm.service.mail;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;

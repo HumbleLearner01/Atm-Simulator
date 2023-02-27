@@ -1,4 +1,4 @@
-package com.personalatm.service.module.impl;
+package com.personalatm.service.module.implementation;
 
 import com.personalatm.helper.enums.TransactionType;
 import com.personalatm.helper.exception.InsufficientBalanceException;

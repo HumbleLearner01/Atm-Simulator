@@ -30,4 +30,7 @@ public interface AccountManagementRepository extends JpaRepository<AccountManage
     Optional<AccountManagement> getUserByAccountNumberAndPassword(@Param("accountNumber") String accountNumber,
                                                                   @Param("password") String password,
                                                                   @Param("bankName") String bankName);
+
+    @Query("select a from AccountManagement a where a.accountNumber = ?1")
+    Optional<AccountManagement> findByAccountNumber(String accountNumber);
 }
