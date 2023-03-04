@@ -36,4 +36,4 @@ Only the admin can verify if a user is eligible or not. After a user submission,
 ### Conclusion
 The ATM Simulator Web App is a convenient way for users to perform transactional actions and manage their bank accounts. With its robust security features, it provides a seamless experience for users. 
 
-🌟Some of its implementations are still on way, so look forward to it!
+🌟Some of its implementations are still on the way, so look forward to it!
